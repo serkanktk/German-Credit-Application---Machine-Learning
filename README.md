@@ -22,3 +22,5 @@ Furthermore, we incorporated K-Fold Cross Validation to ensure a comprehensive a
 As an additional step, we compared the XGBoost model's results with other algorithms, further enriching our report with comparative insights. Surprisingly, the performance of the MLP and KNN algorithms was closely aligned with the Logistic Regression model, which was an unanticipated outcome, emphasizing the value of empirical testing across various algorithms.
 
 In conclusion, our study offered significant insights into the efficacy of different machine learning algorithms for credit risk classification. The top-performing Logistic Regression model with RFE proved to be the most effective in our analysis. These results can guide future research and practical applications, particularly for financial institutions looking to leverage machine learning for credit scoring.
+
+For further information, check out "ProjectReport_Ozge_Serkan.pdf"
