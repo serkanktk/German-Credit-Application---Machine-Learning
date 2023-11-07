@@ -7,13 +7,13 @@ Our experimentation involved fine-tuning models like Logistic Regression, MLP (M
 
 Here’s a concise summary of our findings and methodologies:
 
-We applied Logistic Regression as a base model and improved its accuracy from 0.708 to 0.728 by incorporating Recursive Feature Elimination (RFE), which helped in identifying the top 10 most predictive features.
+- We applied Logistic Regression as a base model and improved its accuracy from 0.708 to 0.728 by incorporating Recursive Feature Elimination (RFE), which helped in identifying the top 10 most predictive features.
 
-Both the MLP and KNN models achieved a competitive accuracy of 0.716, indicating their efficiency in the classification task despite their differing approaches (neural network vs. proximity-based classification).
+- Both the MLP and KNN models achieved a competitive accuracy of 0.716, indicating their efficiency in the classification task despite their differing approaches (neural network vs. proximity-based classification).
 
-The Decision Tree algorithm presented a lower accuracy of 0.672, implying a limitation in capturing the intricate relationships within this specific dataset.
+- The Decision Tree algorithm presented a lower accuracy of 0.672, implying a limitation in capturing the intricate relationships within this specific dataset.
 
-XGBoost showed a promising performance with an accuracy of 0.72, reflecting the power of gradient boosting techniques in classification problems.
+- XGBoost showed a promising performance with an accuracy of 0.72, reflecting the power of gradient boosting techniques in classification problems.
 
 The most effective model, Logistic Regression with RFE, displayed a propensity for false positives as revealed by the confusion matrix. This underlined the model's conservative stance in predicting credit risk. Despite this, it had commendable precision and recall metrics, with an F1-score of 0.83, demonstrating its robustness in identifying creditworthy applicants.
 
